@@ -24,6 +24,7 @@ public class Main {
         r.locomover();
         // -------------------
         //----------------------
-
+        can.locomover();
+        cac.locomover();
     }
 }
