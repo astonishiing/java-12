@@ -1,5 +1,5 @@
 public class Reptil extends Animal {
-    private String corEscama
+    private String corEscama;
     @Override
     public void locomover() {
         System.out.println("Rastejando");
