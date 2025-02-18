@@ -7,6 +7,6 @@ public abstract class Animal {
     //Métodos abstratos - somente as filhas podem ser desenvolvidas
     public abstract void locomover();
     public abstract void alimentar();
-    public abstract void emitirsom();
+    public abstract void emitirSom();
 
 }
