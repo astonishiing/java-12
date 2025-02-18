@@ -8,6 +8,12 @@ public class Main {
         Peixe p = new Peixe();
         Ave a = new Ave();
 
+        Canguru can = new Canguru();
+        Cachorro cac = new Cachorro();
+        Cobra co = new Cobra();
+        Tartaruga ta = new Tartaruga();
+        Arara ar = new Arara();
+
         m.setPeso(35.3f);
         m.setCorPelo("Marrom");
         m.alimentar();
@@ -16,6 +22,8 @@ public class Main {
 
         p.locomover();
         r.locomover();
+        // -------------------
+        //----------------------
 
     }
 }
