@@ -1,4 +1,17 @@
-package PACKAGE_NAME;
+public class Reptil extends Animal {
+    private String corEscama
+    @Override
+    public void locomover() {
+        System.out.println("Rastejando");
+    }
 
-public class Reptil {
+    @Override
+    public void alimentar() {
+        System.out.println("Comendo vegetais");
+    }
+
+    @Override
+    public void emitirSom() {
+        System.out.println("Som de reptil");
+    }
 }
